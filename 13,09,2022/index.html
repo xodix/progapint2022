@@ -1,0 +1,43 @@
+<!-- Napisz program który obliczy pole trójkąta na podstawie a,b,c [cm] -->
+<!-- Czy pola są puste -->
+<!-- Czy pola są większe od zera -->
+<!-- Czy pola tworzą trójkąt -->
+<!-- Jeśli nie to div "Z podanych boków nie można zbudować trójkąta"-->
+<!-- Jeśli tak to div obleczenia "Pole trójkąta wynosi ${wynik dwa miejsca po przecinku.}cm^2"-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Trójkąt</title>
+	<script src="./main.js" defer></script>
+</head>
+
+<body>
+	<form>
+		<label>
+			Podaj a:
+			<br>
+			<input type="number" name="a">cm
+			<br>
+		</label>
+		<label>
+			Podaj b:
+			<br>
+			<input type="number" name="b">cm
+			<br>
+		</label>
+		<label>
+			Podaj c:
+			<br>
+			<input type="number" name="c">cm
+			<br>
+		</label>
+
+		<button>Oblicz</button>
+	</form>
+
+	<div id="wynik"></div>
+</body>
+
+</html>

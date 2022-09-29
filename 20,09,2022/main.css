@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.outer {
+  width: 50%;
+  height: 80vh;
+  margin: auto;
+  text-align: center;
+  background: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner {
+  width: 80%;
+  font-size: 1.5em;
+  background: yellowgreen;
+  position: relative;
+}
+
+table {
+  width: 80%;
+  height: 30vh;
+  margin: auto;
+  border: 1px solid black;
+}
+
+td {
+  border: 1px solid black;
+  background: white;
+}
+
+button {
+  font-size: 1em;
+}
